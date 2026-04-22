@@ -8,9 +8,6 @@ Logs/
 .plastic/
 
 # ─── IDE / 项目文件 ───
-*.csproj
-*.unityproj
-*.sln
 *.userprefs
 *.pidb
 *.booproj
