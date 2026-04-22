@@ -1,0 +1,32 @@
+# ─── Unity 生成文件 ───
+Library/
+Temp/
+obj/
+Logs/
+
+# ─── 版本控制工具（非 Git）───
+.plastic/
+
+# ─── IDE / 项目文件 ───
+*.csproj
+*.unityproj
+*.sln
+*.userprefs
+*.pidb
+*.booproj
+.csharp/
+
+# ─── 系统文件 ───
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ─── IDE ───
+.vs/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ─── OS 临时文件 ───
+~$*

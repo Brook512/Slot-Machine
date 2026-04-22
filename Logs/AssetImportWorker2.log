@@ -1,0 +1,1853 @@
+Using pre-set license
+Built from 'tuanjie/1.6/staging' branch; Version is '2022.3.61t10 (3c39e943eae5) revision 3946985'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'zh' Physical Memory: 24407 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Users\Brook\Tuanjie\Hub\Editor\2022.3.61t10\Editor\Tuanjie.exe
+-adb2
+-batchMode
+-noUpm
+-disableFMOD
+-name
+AssetImportWorker2
+-projectPath
+D:/Users/Brook/Slot Machine
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+59376
+Successfully changed project path to: D:/Users/Brook/Slot Machine
+D:/Users/Brook/Slot Machine
+[Memory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [35072]  Target information:
+
+Player connection [35072]  * "[IP] 211.83.105.100 [Port] 0 [Flags] 2 [Guid] 659546214 [EditorId] 659546214 [Version] 1048832 [Id] WindowsEditor(7,CHINAMI-TP17C6G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [35072]  * "[IP] 172.21.48.1 [Port] 0 [Flags] 2 [Guid] 659546214 [EditorId] 659546214 [Version] 1048832 [Id] WindowsEditor(7,CHINAMI-TP17C6G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [35072]  * "[IP] 198.18.0.1 [Port] 0 [Flags] 2 [Guid] 659546214 [EditorId] 659546214 [Version] 1048832 [Id] WindowsEditor(7,CHINAMI-TP17C6G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [35072] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [35072] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 221.07 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.61t10 (3c39e943eae5)
+[Subsystems] Discovering subsystems at path D:/Users/Brook/Tuanjie/Hub/Editor/2022.3.61t10/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Users/Brook/Slot Machine/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
+    Vendor:   NVIDIA
+    VRAM:     12113 MB
+    Driver:   32.0.15.9174
+Initialize mono
+Mono path[0] = 'D:/Users/Brook/Tuanjie/Hub/Editor/2022.3.61t10/Editor/Data/Managed'
+Mono path[1] = 'D:/Users/Brook/Tuanjie/Hub/Editor/2022.3.61t10/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Users/Brook/Tuanjie/Hub/Editor/2022.3.61t10/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=0.0.0.0:56060
+Begin MonoManager ReloadAssembly
+Registering precompiled tuanjie dll's ...
+Register platform support module: D:/Users/Brook/Tuanjie/Hub/Editor/2022.3.61t10/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Users/Brook/Tuanjie/Hub/Editor/2022.3.61t10/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Users/Brook/Tuanjie/Hub/Editor/2022.3.61t10/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/UnityEditor.WeixinMiniGame.Extensions.dll
+Register platform support module: D:/Users/Brook/Tuanjie/Hub/Editor/2022.3.61t10/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/Users/Brook/Tuanjie/Hub/Editor/2022.3.61t10/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016051 seconds.
+- Loaded All Assemblies, in  1.482 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for WeixinMiniGame target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 309 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.726 seconds
+Domain Reload Profiling: 2206ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (147ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (1113ms)
+		LoadAssemblies (129ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1109ms)
+			TypeCache.Refresh (1107ms)
+				TypeCache.ScanAssembly (924ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (726ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (667ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (451ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.017 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WeixinMiniGame target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.030 seconds
+Domain Reload Profiling: 2044ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (738ms)
+		LoadAssemblies (446ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (393ms)
+			TypeCache.Refresh (340ms)
+				TypeCache.ScanAssembly (318ms)
+			ScanForSourceGeneratedMonoScriptInfo (37ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1030ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (830ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (606ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 6.11 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6169 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (0.9 MB). Loaded Objects now: 6644.
+Memory consumption went from 201.5 MB to 200.6 MB.
+Total: 5.664100 ms (FindLiveObjects: 0.819400 ms CreateObjectMapping: 0.238000 ms MarkObjects: 4.161100 ms  DeleteObjects: 0.444300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: f1b99f4b41accd8c7519ffbcf00fecd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1557487.826964 seconds.
+  path: Assets/Scripts/Presentation/WheelItem.cs
+  artifactKey: Guid(9b196e652265b534cb3b70b534333cea) Importer(PreviewImporter)
+Start importing Assets/Scripts/Presentation/WheelItem.cs using Guid(9b196e652265b534cb3b70b534333cea) Importer(PreviewImporter)  -> (artifact id: '91a8f115ab4fdb61fa8cb362d49ff2f7') in 0.003537 seconds
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 58.301346 seconds.
+  path: Assets/Scripts/Presentation/WheelItem.cs
+  artifactKey: Guid(9b196e652265b534cb3b70b534333cea) Importer(PreviewImporter)
+Start importing Assets/Scripts/Presentation/WheelItem.cs using Guid(9b196e652265b534cb3b70b534333cea) Importer(PreviewImporter)  -> (artifact id: '79edd955122a579828bf1feec1424615') in 0.000854 seconds
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.382 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WeixinMiniGame target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.072 seconds
+Domain Reload Profiling: 2451ms
+	BeginReloadAssembly (915ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (711ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (363ms)
+		LoadAssemblies (417ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (64ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1073ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (814ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (587ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 6.08 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6017 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (0.9 MB). Loaded Objects now: 6651.
+Memory consumption went from 182.2 MB to 181.4 MB.
+Total: 5.089800 ms (FindLiveObjects: 0.794100 ms CreateObjectMapping: 0.238000 ms MarkObjects: 3.630400 ms  DeleteObjects: 0.425800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: f1b99f4b41accd8c7519ffbcf00fecd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.675 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WeixinMiniGame target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.788 seconds
+Domain Reload Profiling: 2459ms
+	BeginReloadAssembly (201ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (364ms)
+		LoadAssemblies (444ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1789ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (889ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (641ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 7.46 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6017 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (0.9 MB). Loaded Objects now: 6657.
+Memory consumption went from 181.1 MB to 180.2 MB.
+Total: 6.089000 ms (FindLiveObjects: 0.955100 ms CreateObjectMapping: 0.309100 ms MarkObjects: 4.205500 ms  DeleteObjects: 0.617700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: f1b99f4b41accd8c7519ffbcf00fecd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.675 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WeixinMiniGame target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.746 seconds
+Domain Reload Profiling: 2417ms
+	BeginReloadAssembly (196ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (377ms)
+		LoadAssemblies (453ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1747ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (831ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (601ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 6.31 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6017 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (0.9 MB). Loaded Objects now: 6663.
+Memory consumption went from 181.1 MB to 180.2 MB.
+Total: 5.394500 ms (FindLiveObjects: 0.838600 ms CreateObjectMapping: 0.256200 ms MarkObjects: 3.821500 ms  DeleteObjects: 0.476700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: f1b99f4b41accd8c7519ffbcf00fecd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8666.702872 seconds.
+  path: Assets/Art/Sprites/Frames/BackAnim.png
+  artifactKey: Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)
+Start importing Assets/Art/Sprites/Frames/BackAnim.png using Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter) Launched and connected shader compiler TuanjieShaderCompiler.exe after 0.08 seconds
+ -> (artifact id: 'd9b0742d28f7c2ec7a92114c1a202987') in 0.960505 seconds
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.451681 seconds.
+  path: Assets/Art/Sprites/Frames/BackAnim.png
+  artifactKey: Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)
+Start importing Assets/Art/Sprites/Frames/BackAnim.png using Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)  -> (artifact id: 'e968a308afeb0cb81cea0a0087cd513d') in 0.024179 seconds
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 23.853113 seconds.
+  path: Assets/Art/Sprites/Frames/BackAnim.png
+  artifactKey: Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)
+Start importing Assets/Art/Sprites/Frames/BackAnim.png using Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)  -> (artifact id: 'f2d28145ac1ffb78a2b7e2f594fced35') in 0.120932 seconds
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 222.169944 seconds.
+  path: Assets/Art/Sprites/Frames/BackAnim.png
+  artifactKey: Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)
+Start importing Assets/Art/Sprites/Frames/BackAnim.png using Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)  -> (artifact id: '6d3564873afe9689b045839b60355b84') in 0.064900 seconds
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 85.332141 seconds.
+  path: Assets/Art/Sprites/Frames/BackAnim.png
+  artifactKey: Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)
+Start importing Assets/Art/Sprites/Frames/BackAnim.png using Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)  -> (artifact id: '45721290cf8c2da7e723414ef6e9b690') in 0.067470 seconds
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 71.979997 seconds.
+  path: Assets/Art/Sprites/Frames/BackAnim.png
+  artifactKey: Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)
+Start importing Assets/Art/Sprites/Frames/BackAnim.png using Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)  -> (artifact id: '0a34096ee94bafd9c6b2e8c257b0a787') in 0.105831 seconds
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 46.162909 seconds.
+  path: Assets/Art/Sprites/Frames/BackAnim.png
+  artifactKey: Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)
+Start importing Assets/Art/Sprites/Frames/BackAnim.png using Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)  -> (artifact id: '8f3a2b6b88649c952e524d72e1cc9be7') in 0.097044 seconds
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 21.318885 seconds.
+  path: Assets/Art/Sprites/Frames/BackAnim.png
+  artifactKey: Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)
+Start importing Assets/Art/Sprites/Frames/BackAnim.png using Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)  -> (artifact id: '6f13c3043b941e10f8553f533b0bf284') in 0.062454 seconds
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 41.388597 seconds.
+  path: Assets/Art/Sprites/Frames/BackAnim.png
+  artifactKey: Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)
+Start importing Assets/Art/Sprites/Frames/BackAnim.png using Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)  -> (artifact id: 'cde616ed24e07f9d9bbcac06dc00a64b') in 0.022103 seconds
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.143325 seconds.
+  path: Assets/Art/Sprites/Frames/BackAnim.png
+  artifactKey: Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)
+Start importing Assets/Art/Sprites/Frames/BackAnim.png using Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)  -> (artifact id: '8d070a4541fbb710a045ba0b4832140b') in 0.014821 seconds
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 18.896320 seconds.
+  path: Assets/Art/Sprites/Frames/BackAnim.png
+  artifactKey: Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)
+Start importing Assets/Art/Sprites/Frames/BackAnim.png using Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)  -> (artifact id: '816e8ebbb65056f816f007635f5750d0') in 0.115722 seconds
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 121.620239 seconds.
+  path: Assets/Art/Sprites/Frames/BackAnim.png
+  artifactKey: Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)
+Start importing Assets/Art/Sprites/Frames/BackAnim.png using Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)  -> (artifact id: 'c039493f311301080530b8b198b2b6eb') in 0.020602 seconds
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 12.508341 seconds.
+  path: Assets/Art/Sprites/Frames/BackAnim.png
+  artifactKey: Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)
+Start importing Assets/Art/Sprites/Frames/BackAnim.png using Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)  -> (artifact id: 'fe2ea97a564bbfaf2c2d5ea76986b49b') in 0.016598 seconds
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.721046 seconds.
+  path: Assets/Art/Sprites/Frames/BackAnim.png
+  artifactKey: Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)
+Start importing Assets/Art/Sprites/Frames/BackAnim.png using Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)  -> (artifact id: 'fa41dc7251a65996f3e2083fca225421') in 0.103049 seconds
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 26.439790 seconds.
+  path: Assets/Art/Sprites/Frames/BackAnim 1.png
+  artifactKey: Guid(54326db515c9edc47a9784958e8a5838) Importer(PreviewImporter)
+Start importing Assets/Art/Sprites/Frames/BackAnim 1.png using Guid(54326db515c9edc47a9784958e8a5838) Importer(PreviewImporter)  -> (artifact id: '515b8279d9f8318eb2bb00faebdf8011') in 0.010250 seconds
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 38.024071 seconds.
+  path: Assets/Art/Sprites/Frames/BackAnim.png
+  artifactKey: Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)
+Start importing Assets/Art/Sprites/Frames/BackAnim.png using Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)  -> (artifact id: 'bcb8a038199bc987470db6232ab46819') in 0.032931 seconds
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.434032 seconds.
+  path: Assets/Art/Sprites/Frames/BackAnim.png
+  artifactKey: Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)
+Start importing Assets/Art/Sprites/Frames/BackAnim.png using Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)  -> (artifact id: 'b31130056445b74f589d2f8a63c4b296') in 0.027008 seconds
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.551830 seconds.
+  path: Assets/Art/Sprites/Frames/BackAnim.png
+  artifactKey: Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)
+Start importing Assets/Art/Sprites/Frames/BackAnim.png using Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)  -> (artifact id: 'd6c7f7923d3baa7a7a127cd75d093b72') in 0.103659 seconds
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.867 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WeixinMiniGame target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.081 seconds
+Domain Reload Profiling: 2944ms
+	BeginReloadAssembly (260ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (499ms)
+		LoadAssemblies (593ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (2081ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (923ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (668ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 8.23 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6017 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (0.9 MB). Loaded Objects now: 6679.
+Memory consumption went from 185.3 MB to 184.5 MB.
+Total: 6.728700 ms (FindLiveObjects: 0.952300 ms CreateObjectMapping: 0.288600 ms MarkObjects: 4.929700 ms  DeleteObjects: 0.556100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: f1b99f4b41accd8c7519ffbcf00fecd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 58627.654867 seconds.
+  path: Assets/Scripts/Presentation/BackgroundLightController
+  artifactKey: Guid(eb35f5dbe0169ef4493933b43e2ad83c) Importer(PreviewImporter)
+Start importing Assets/Scripts/Presentation/BackgroundLightController using Guid(eb35f5dbe0169ef4493933b43e2ad83c) Importer(PreviewImporter)  -> (artifact id: '0cd3a6eccf0db6beb2fdfbd6980525e9') in 0.071811 seconds
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.735240 seconds.
+  path: Assets/Scripts/Presentation/BackgroundLightController.cs
+  artifactKey: Guid(d766a4c792954bd4896de3f344987f68) Importer(PreviewImporter)
+Start importing Assets/Scripts/Presentation/BackgroundLightController.cs using Guid(d766a4c792954bd4896de3f344987f68) Importer(PreviewImporter)  -> (artifact id: '4fe19dfa663ceb10c79a1768166e2fb7') in 0.001817 seconds
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.020 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WeixinMiniGame target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.053 seconds
+Domain Reload Profiling: 4069ms
+	BeginReloadAssembly (325ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (37ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (111ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (582ms)
+		LoadAssemblies (615ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (96ms)
+			TypeCache.Refresh (29ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (42ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (3054ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (899ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (49ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (637ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 6.63 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6018 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (0.9 MB). Loaded Objects now: 6686.
+Memory consumption went from 185.4 MB to 184.5 MB.
+Total: 7.762200 ms (FindLiveObjects: 1.019300 ms CreateObjectMapping: 0.475200 ms MarkObjects: 5.724900 ms  DeleteObjects: 0.540900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: f1b99f4b41accd8c7519ffbcf00fecd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/BackgroundLightController.cs: 3a65bfc1875990626fc72fd9f0698b9f -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 9e43a5a99e27adb938a40ad863237bee -> f3236ed959f9d5a90247a6b5e7e5c4b6
+========================================================================
+Received Import Request.
+  Time since last request: 42.734007 seconds.
+  path: Assets/Scripts/Presentation/BackgroundLightController.cs
+  artifactKey: Guid(d766a4c792954bd4896de3f344987f68) Importer(PreviewImporter)
+Start importing Assets/Scripts/Presentation/BackgroundLightController.cs using Guid(d766a4c792954bd4896de3f344987f68) Importer(PreviewImporter)  -> (artifact id: '378ccbbfe7f31c34f041710d91cf343b') in 0.003083 seconds
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 261.209804 seconds.
+  path: Assets/Scripts/Presentation/BackgroundLightController.cs
+  artifactKey: Guid(d766a4c792954bd4896de3f344987f68) Importer(PreviewImporter)
+Start importing Assets/Scripts/Presentation/BackgroundLightController.cs using Guid(d766a4c792954bd4896de3f344987f68) Importer(PreviewImporter)  -> (artifact id: '71cb2c5434978bd5fc379598ebead03d') in 0.000699 seconds
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.385 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WeixinMiniGame target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 19.886 seconds
+Domain Reload Profiling: 21267ms
+	BeginReloadAssembly (254ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (1004ms)
+		LoadAssemblies (880ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (276ms)
+			TypeCache.Refresh (197ms)
+				TypeCache.ScanAssembly (149ms)
+			ScanForSourceGeneratedMonoScriptInfo (61ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (19887ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1438ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (63ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (1109ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 8.16 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6030 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (0.9 MB). Loaded Objects now: 6707.
+Memory consumption went from 185.7 MB to 184.8 MB.
+Total: 9.618600 ms (FindLiveObjects: 1.688800 ms CreateObjectMapping: 0.751300 ms MarkObjects: 6.220900 ms  DeleteObjects: 0.953400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DOTweenModuleUtils.cs: 34ad347c902a97803d1c13fe65e97957 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleUnityVersion.cs: 5fda8b30fb2f0276062c9b201e3b53c4 -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleUI.cs: 53c26b618f695b59a868eebdc97332ad -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-firstpass: c3b8ba213efe735b4b5ada0ee074dcb3 -> 
+  custom:scripting/precompiled-assembly-types:DOTween: 21631fe7085164ba8eadd9baa5b57d90 -> 
+  custom:CustomObjectIndexerAttribute: f1b99f4b41accd8c7519ffbcf00fecd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/BackgroundLightController.cs: 3a65bfc1875990626fc72fd9f0698b9f -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleAudio.cs: 371877257ce39f5f0996ea556debbc8a -> 
+  custom:scripting/monoscript/fileName/DOTweenModulePhysics2D.cs: 63b0e5981d81d026672954b54596f5ae -> 
+  custom:scripting/precompiled-assembly-types:DOTweenEditor: 976cc858e2691534ce655d4ece67fff0 -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleSprite.cs: e35fb5eb1c483cffc283a374a5e25466 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/DOTweenModulePhysics.cs: 87f8974001cd2397421cfdcad1904e83 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:DOTweenUpgradeManager: 16e542c52fa73d4cbcd5cf54d161ea3b -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: fbf545a45a7d6a23d055d42a6ddcacb6 -> f3236ed959f9d5a90247a6b5e7e5c4b6
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.232 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WeixinMiniGame target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.884 seconds
+Domain Reload Profiling: 3113ms
+	BeginReloadAssembly (296ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (786ms)
+		LoadAssemblies (701ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (262ms)
+			TypeCache.Refresh (206ms)
+				TypeCache.ScanAssembly (170ms)
+			ScanForSourceGeneratedMonoScriptInfo (38ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1885ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (934ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (688ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 6.82 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6030 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (0.9 MB). Loaded Objects now: 6713.
+Memory consumption went from 185.7 MB to 184.9 MB.
+Total: 5.868600 ms (FindLiveObjects: 0.927700 ms CreateObjectMapping: 0.272200 ms MarkObjects: 4.138800 ms  DeleteObjects: 0.528300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DOTweenModuleUtils.cs: 34ad347c902a97803d1c13fe65e97957 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleUnityVersion.cs: 5fda8b30fb2f0276062c9b201e3b53c4 -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleUI.cs: 53c26b618f695b59a868eebdc97332ad -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-firstpass: c3b8ba213efe735b4b5ada0ee074dcb3 -> 
+  custom:scripting/precompiled-assembly-types:DOTween: 21631fe7085164ba8eadd9baa5b57d90 -> 
+  custom:CustomObjectIndexerAttribute: f1b99f4b41accd8c7519ffbcf00fecd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/BackgroundLightController.cs: 3a65bfc1875990626fc72fd9f0698b9f -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleAudio.cs: 371877257ce39f5f0996ea556debbc8a -> 
+  custom:scripting/monoscript/fileName/DOTweenModulePhysics2D.cs: 63b0e5981d81d026672954b54596f5ae -> 
+  custom:scripting/precompiled-assembly-types:DOTweenEditor: 976cc858e2691534ce655d4ece67fff0 -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleSprite.cs: e35fb5eb1c483cffc283a374a5e25466 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/DOTweenModulePhysics.cs: 87f8974001cd2397421cfdcad1904e83 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:DOTweenUpgradeManager: 16e542c52fa73d4cbcd5cf54d161ea3b -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: fbf545a45a7d6a23d055d42a6ddcacb6 -> f3236ed959f9d5a90247a6b5e7e5c4b6
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.951 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WeixinMiniGame target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.752 seconds
+Domain Reload Profiling: 2700ms
+	BeginReloadAssembly (217ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (633ms)
+		LoadAssemblies (548ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (203ms)
+			TypeCache.Refresh (158ms)
+				TypeCache.ScanAssembly (132ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1752ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (915ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (689ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 6.75 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (0.9 MB). Loaded Objects now: 6718.
+Memory consumption went from 185.7 MB to 184.8 MB.
+Total: 5.037000 ms (FindLiveObjects: 0.828900 ms CreateObjectMapping: 0.229600 ms MarkObjects: 3.516100 ms  DeleteObjects: 0.461100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DOTweenModuleUtils.cs: 34ad347c902a97803d1c13fe65e97957 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleUnityVersion.cs: 5fda8b30fb2f0276062c9b201e3b53c4 -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleUI.cs: 53c26b618f695b59a868eebdc97332ad -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-firstpass: c3b8ba213efe735b4b5ada0ee074dcb3 -> 
+  custom:scripting/precompiled-assembly-types:DOTween: 21631fe7085164ba8eadd9baa5b57d90 -> 
+  custom:CustomObjectIndexerAttribute: f1b99f4b41accd8c7519ffbcf00fecd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/BackgroundLightController.cs: 3a65bfc1875990626fc72fd9f0698b9f -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleAudio.cs: 371877257ce39f5f0996ea556debbc8a -> 
+  custom:scripting/monoscript/fileName/DOTweenModulePhysics2D.cs: 63b0e5981d81d026672954b54596f5ae -> 
+  custom:scripting/precompiled-assembly-types:DOTweenEditor: 976cc858e2691534ce655d4ece67fff0 -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleSprite.cs: e35fb5eb1c483cffc283a374a5e25466 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/DOTweenModulePhysics.cs: 87f8974001cd2397421cfdcad1904e83 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: fbf545a45a7d6a23d055d42a6ddcacb6 -> f3236ed959f9d5a90247a6b5e7e5c4b6
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.044 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WeixinMiniGame target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.713 seconds
+Domain Reload Profiling: 2753ms
+	BeginReloadAssembly (233ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (695ms)
+		LoadAssemblies (584ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (238ms)
+			TypeCache.Refresh (185ms)
+				TypeCache.ScanAssembly (161ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1714ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (851ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (610ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 7.31 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (0.9 MB). Loaded Objects now: 6724.
+Memory consumption went from 185.8 MB to 184.9 MB.
+Total: 6.035300 ms (FindLiveObjects: 0.998300 ms CreateObjectMapping: 0.284200 ms MarkObjects: 4.185200 ms  DeleteObjects: 0.564700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DOTweenModuleUtils.cs: 34ad347c902a97803d1c13fe65e97957 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/precompiled-assembly-types:Unity.PlasticSCM.Editor: b611313f0332b9323a742b881e66d3e1 -> 09fe37ab5b17f9d3dcadeff13f403ad0
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/precompiled-assembly-types:Unity.2D.Psdimporter.Editor: 8025cd9a6d808d7f753b8e954658b70b -> ed563be6c9b4eabe02cd35dbfcc1f959
+  custom:scripting/monoscript/fileName/DOTweenModuleUnityVersion.cs: 5fda8b30fb2f0276062c9b201e3b53c4 -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleUI.cs: 53c26b618f695b59a868eebdc97332ad -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-firstpass: c3b8ba213efe735b4b5ada0ee074dcb3 -> 
+  custom:scripting/precompiled-assembly-types:DOTween: 21631fe7085164ba8eadd9baa5b57d90 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Timeline.Editor: b4313fba5652ee5a8449f3ec85f31ae4 -> 534d7c71c4dd9147ea00599cede121e1
+  custom:CustomObjectIndexerAttribute: f1b99f4b41accd8c7519ffbcf00fecd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:Unity.RenderPipelines.Universal.Editor: 5367edb062a2f2dffb5d6b8889dbe6a1 -> 017d5230c730151a50bfe97104a12309
+  custom:scripting/precompiled-assembly-types:Unity.ShaderGraph.Editor: 2acbf1dac33e93d504ea411e2223b8b4 -> f08bdb470e89a8a6198d41ee1f58717c
+  custom:scripting/monoscript/fileName/BackgroundLightController.cs: 3a65bfc1875990626fc72fd9f0698b9f -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleAudio.cs: 371877257ce39f5f0996ea556debbc8a -> 
+  custom:scripting/monoscript/fileName/DOTweenModulePhysics2D.cs: 63b0e5981d81d026672954b54596f5ae -> 
+  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Core.Editor: 1ac958119c4ad755d50390246b13522a -> 39597c0f3a76e24d87d64afa59c5f88d
+  custom:scripting/precompiled-assembly-types:UnityEngine.TestRunner: 7a4d96a0696e29157328c6996c3b82c5 -> f5758234275f5346968d00e3b1a1c0e4
+  custom:scripting/precompiled-assembly-types:DOTweenEditor: 976cc858e2691534ce655d4ece67fff0 -> 
+  custom:scripting/precompiled-assembly-types:Unity.2D.Animation.Editor: aacf03663bd822ad22c8cb89387a25e5 -> 9e298d922ee71fa5cbd30bb22b8f952c
+  custom:scripting/monoscript/fileName/DOTweenModuleSprite.cs: e35fb5eb1c483cffc283a374a5e25466 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/DOTweenModulePhysics.cs: 87f8974001cd2397421cfdcad1904e83 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: fbf545a45a7d6a23d055d42a6ddcacb6 -> f3236ed959f9d5a90247a6b5e7e5c4b6
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.603 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WeixinMiniGame target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 28.194 seconds
+Domain Reload Profiling: 31794ms
+	BeginReloadAssembly (581ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (41ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (127ms)
+	RebuildCommonClasses (164ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (2788ms)
+		LoadAssemblies (3097ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (47ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (28195ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (894ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (633ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 7.58 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (0.9 MB). Loaded Objects now: 6730.
+Memory consumption went from 185.8 MB to 184.9 MB.
+Total: 8.913900 ms (FindLiveObjects: 0.866000 ms CreateObjectMapping: 0.255000 ms MarkObjects: 6.894200 ms  DeleteObjects: 0.895800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DOTweenModuleUtils.cs: 34ad347c902a97803d1c13fe65e97957 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/precompiled-assembly-types:Unity.PlasticSCM.Editor: b611313f0332b9323a742b881e66d3e1 -> 09fe37ab5b17f9d3dcadeff13f403ad0
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/precompiled-assembly-types:Unity.2D.Psdimporter.Editor: 8025cd9a6d808d7f753b8e954658b70b -> ed563be6c9b4eabe02cd35dbfcc1f959
+  custom:scripting/monoscript/fileName/DOTweenModuleUnityVersion.cs: 5fda8b30fb2f0276062c9b201e3b53c4 -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleUI.cs: 53c26b618f695b59a868eebdc97332ad -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-firstpass: c3b8ba213efe735b4b5ada0ee074dcb3 -> 
+  custom:scripting/precompiled-assembly-types:DOTween: 21631fe7085164ba8eadd9baa5b57d90 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Timeline.Editor: b4313fba5652ee5a8449f3ec85f31ae4 -> 534d7c71c4dd9147ea00599cede121e1
+  custom:CustomObjectIndexerAttribute: f1b99f4b41accd8c7519ffbcf00fecd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:Unity.RenderPipelines.Universal.Editor: 5367edb062a2f2dffb5d6b8889dbe6a1 -> 017d5230c730151a50bfe97104a12309
+  custom:scripting/precompiled-assembly-types:Unity.ShaderGraph.Editor: 2acbf1dac33e93d504ea411e2223b8b4 -> f08bdb470e89a8a6198d41ee1f58717c
+  custom:scripting/monoscript/fileName/BackgroundLightController.cs: 3a65bfc1875990626fc72fd9f0698b9f -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleAudio.cs: 371877257ce39f5f0996ea556debbc8a -> 
+  custom:scripting/monoscript/fileName/DOTweenModulePhysics2D.cs: 63b0e5981d81d026672954b54596f5ae -> 
+  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Core.Editor: 1ac958119c4ad755d50390246b13522a -> 39597c0f3a76e24d87d64afa59c5f88d
+  custom:scripting/precompiled-assembly-types:UnityEngine.TestRunner: 7a4d96a0696e29157328c6996c3b82c5 -> f5758234275f5346968d00e3b1a1c0e4
+  custom:scripting/precompiled-assembly-types:DOTweenEditor: 976cc858e2691534ce655d4ece67fff0 -> 
+  custom:scripting/precompiled-assembly-types:Unity.2D.Animation.Editor: aacf03663bd822ad22c8cb89387a25e5 -> 9e298d922ee71fa5cbd30bb22b8f952c
+  custom:scripting/monoscript/fileName/DOTweenModuleSprite.cs: e35fb5eb1c483cffc283a374a5e25466 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/DOTweenModulePhysics.cs: 87f8974001cd2397421cfdcad1904e83 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: fbf545a45a7d6a23d055d42a6ddcacb6 -> f3236ed959f9d5a90247a6b5e7e5c4b6
+========================================================================
+Received Import Request.
+  Time since last request: 17800.440852 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(PreviewImporter)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(PreviewImporter)  -> (artifact id: 'ddc82a21306417483ef3193e42bb19f6') in 0.027928 seconds
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 54.346947 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(PreviewImporter)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(PreviewImporter)  -> (artifact id: '11cdf1b7dac69be3765df6aad78b3f0e') in 0.000936 seconds
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.984610 seconds.
+  path: Assets/Scenes/MainGame.scene
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(PreviewImporter)
+Start importing Assets/Scenes/MainGame.scene using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(PreviewImporter)  -> (artifact id: 'a8d6236203f855edbf9faae5a0a590af') in 0.000862 seconds
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.227786 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(ad93b1e65d124c54496cfeec2f8458ef) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Prefabs using Guid(ad93b1e65d124c54496cfeec2f8458ef) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '81b57bb4324513f6f87ec06f58ec96f8') in 0.227839 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat
+  artifactKey: Guid(22262639920f43d6be32430e4e58350d) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat using Guid(22262639920f43d6be32430e4e58350d) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '34900b1b15721254fc1efe9920dc5ae2') in 0.277312 seconds
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
+  artifactKey: Guid(c719e38f25a9480abd2480ab621a2949) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat using Guid(c719e38f25a9480abd2480ab621a2949) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'd051f51e578ed69d6b27a0a0095b32c8') in 0.033094 seconds
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png
+  artifactKey: Guid(4ccf43d26c4748c792174516f4a8fcef) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png using Guid(4ccf43d26c4748c792174516f4a8fcef) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'a906e4c53c27e3f88aa13d858d07ae51') in 0.075800 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite Asset.asset
+  artifactKey: Guid(fbef3c704dce48f08a44612d6c856c8d) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite Asset.asset using Guid(fbef3c704dce48f08a44612d6c856c8d) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '044979a037fc3a423bc511ff50b2c8bb') in 0.063928 seconds
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures
+  artifactKey: Guid(6e5c6d5e25574122a7a12dbdbbeed156) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures using Guid(6e5c6d5e25574122a7a12dbdbbeed156) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'ee8989a2b0db9a3aa80fb779b6802280') in 0.011721 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat
+  artifactKey: Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat using Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'f43ce27f23f4473434f331efa69a29b1') in 0.047273 seconds
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs
+  artifactKey: Guid(103e0a6a1d404693b9fb1a5173e0e979) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs using Guid(103e0a6a1d404693b9fb1a5173e0e979) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'a50dfbd2ac259805126c0d9a802e679f') in 0.020677 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs
+  artifactKey: Guid(dc20866c0d5e413ab7559440e15333ae) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs using Guid(dc20866c0d5e413ab7559440e15333ae) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'f3d39bacc8ce2b1b97533e6a7495aca3') in 0.013384 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity
+  artifactKey: Guid(9747140c28254be2adc582210dfb89b8) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity using Guid(9747140c28254be2adc582210dfb89b8) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '8dc64e176ac17939cd48529b37eb2db8') in 0.012869 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs
+  artifactKey: Guid(2ed57967c52645d390a89dcf8f61ba73) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs using Guid(2ed57967c52645d390a89dcf8f61ba73) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'c6d298afb8b5f92bbfe94967e5699f9a') in 0.014190 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+  artifactKey: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '5daba1100b5705290daf734008978fbd') in 0.056287 seconds
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg
+  artifactKey: Guid(85ac55597b97403c82fc6601a93cf241) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg using Guid(85ac55597b97403c82fc6601a93cf241) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'c5fe377b4f04a940f8c05ded60d9dec7') in 0.032608 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets
+  artifactKey: Guid(7f422cd1388b01047a58cd07c7a23d9d) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets using Guid(7f422cd1388b01047a58cd07c7a23d9d) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'f348ea7e409874eab7aad74ec2c750a5') in 0.012193 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs
+  artifactKey: Guid(a4d4c76e63944cba8c7d00f56334b98c) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs using Guid(a4d4c76e63944cba8c7d00f56334b98c) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '04be1e3c84d8801c90afec384836a9ba') in 0.016214 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat
+  artifactKey: Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat using Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'cf6bc4304eed990145abb53597bcc2d0') in 0.050408 seconds
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '124bb35cc00987d1406b180a57982b07') in 0.032736 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scripts/SlotMachine
+  artifactKey: Guid(09baa38b400a69e4ab92e6304edb32e2) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Scripts/SlotMachine using Guid(09baa38b400a69e4ab92e6304edb32e2) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'c8cba95f27c9788d1ee61ce19a665607') in 0.016099 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets
+  artifactKey: Guid(4aecb92fff08436c8303b10eab8da368) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets using Guid(4aecb92fff08436c8303b10eab8da368) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'bbc076ead600694d8f1f7e9c2031142d') in 0.014998 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '3eb9cc64c1d0fd542842f776ea4c9c21') in 0.025127 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'af172cfa74cce28ffbdbad5e8d1e4544') in 0.027643 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg
+  artifactKey: Guid(602cb87b6a29443b8636370ea0751574) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg using Guid(602cb87b6a29443b8636370ea0751574) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '85770ac2fc5362695e75f646ceec0245') in 0.023966 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '424c6bd7ee55a6ef67714003fba7ecc5') in 0.025989 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'fba876e80c0faa5379fd33c6ac310934') in 0.023270 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '4c7942e920d79b913744b6a06de65256') in 0.115892 seconds
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs
+  artifactKey: Guid(ac1eb05af6d391b4eb0f4c070a99f1d0) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs using Guid(ac1eb05af6d391b4eb0f4c070a99f1d0) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '39c0d542b7abb36bebc7b9d3948fe5d0') in 0.017515 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs
+  artifactKey: Guid(8ef7be1c625941f7ba8ed7cc71718c0d) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs using Guid(8ef7be1c625941f7ba8ed7cc71718c0d) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'f39234b9ca7b8400bf3e33493e3a138c') in 0.013324 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
+  artifactKey: Guid(aadd5a709a48466c887296bb5b1b8110) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat using Guid(aadd5a709a48466c887296bb5b1b8110) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'c6422fb3376e064351159052cc7f6ac2') in 0.026896 seconds
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity
+  artifactKey: Guid(337f92480dd24675aae9e79210fb1ad9) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity using Guid(337f92480dd24675aae9e79210fb1ad9) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '41cf62a491f495fe1f401137acfabfdc') in 0.016355 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity
+  artifactKey: Guid(5fe2257128d9401fad0790f581dc8a6f) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity using Guid(5fe2257128d9401fad0790f581dc8a6f) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'e9bc7fd006ba79042db29c178db5df9b') in 0.015498 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & Sprites.unity
+  artifactKey: Guid(e76e6c0f81964cbda3fe0b7d26ed8060) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & Sprites.unity using Guid(e76e6c0f81964cbda3fe0b7d26ed8060) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '3b584fabc6ed825fa0836acdf81244b7') in 0.014952 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity
+  artifactKey: Guid(8c4969fd8ba94a68b07cf11f3e7a5137) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity using Guid(8c4969fd8ba94a68b07cf11f3e7a5137) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '6924ebf63ba073139ab25ea4dda34482') in 0.014154 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'ef4e39b94a378750f2e2626530f1fcac') in 0.012684 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '4305e958e54d06c369728fd17173f99e') in 0.027156 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs
+  artifactKey: Guid(a4b6f99e8bc54541bbd149b014ff441c) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs using Guid(a4b6f99e8bc54541bbd149b014ff441c) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'ce3cabc70c14aa9b12a9823b8ff5ef6e') in 0.016356 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
+  artifactKey: Guid(997a43b767814dd0a7642ec9b78cba41) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf using Guid(997a43b767814dd0a7642ec9b78cba41) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '195ca86f5ca9e2a4f2599e5c198dedfd') in 0.027793 seconds
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Sprites
+  artifactKey: Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Sprites using Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '9180f99ee015f8187415a828ad1b9c8d') in 0.011306 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '457518448ea606b9d37486337dd70b66') in 0.014332 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '21f084348909716341f74c20d6a879aa') in 0.066058 seconds
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity
+  artifactKey: Guid(3e2e4d7b0bed4cf9ab827e9f32448f69) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity using Guid(3e2e4d7b0bed4cf9ab827e9f32448f69) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'ed8d0b58566aaadb0708ed0edbcf13c5') in 0.013683 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd
+  artifactKey: Guid(7631f4eff8f74ed38eb3eb9db17134e1) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd using Guid(7631f4eff8f74ed38eb3eb9db17134e1) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '793755d0bc2f2c3db1eea7513da049ec') in 0.042933 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'b41d8bb5232cb16aad60305f31f92630') in 0.019762 seconds
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TextMesh Pro/Resources
+  artifactKey: Guid(243e06394e614e5d99fab26083b707fa) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Resources using Guid(243e06394e614e5d99fab26083b707fa) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'f3caf3350145b0e02a77a6e16b8d165c') in 0.012491 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat
+  artifactKey: Guid(42df1c7856584b6b8db9a509b6b10074) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat using Guid(42df1c7856584b6b8db9a509b6b10074) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '7738efb19f70842544c119d880b74872') in 0.042910 seconds
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs
+  artifactKey: Guid(24b0dc2d1d494adbbec1f4db26b4cf83) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs using Guid(24b0dc2d1d494adbbec1f4db26b4cf83) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'd322f99c994b6b16370e3ab81e3f7651') in 0.015269 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Configs/Levels/LevelData1.asset
+  artifactKey: Guid(419b782adfb80ff438f5b22656357ea6) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Configs/Levels/LevelData1.asset using Guid(419b782adfb80ff438f5b22656357ea6) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'c3cba41201361234a90ea2ed40ed1d01') in 0.096870 seconds
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/Sprites/Icons
+  artifactKey: Guid(7806bc969a3a50c4fb803c7340114738) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Art/Sprites/Icons using Guid(7806bc969a3a50c4fb803c7340114738) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '13194e05ade032c54bd8dc8b51651d42') in 0.012480 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Configs/Symbols/Bell_SymbolData.asset
+  artifactKey: Guid(d1ed24bcb34727844b565609caee0226) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Configs/Symbols/Bell_SymbolData.asset using Guid(d1ed24bcb34727844b565609caee0226) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '25caececbf8dc03ff2bf828f72bb82ed') in 0.026212 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scripts/Framework/Runtime/BetRuntime.cs
+  artifactKey: Guid(0b9b3bbbb047fbb4380167b6a85401b1) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Scripts/Framework/Runtime/BetRuntime.cs using Guid(0b9b3bbbb047fbb4380167b6a85401b1) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '2092237588e0e81dc781c35a83aa6559') in 0.016772 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scripts/Presentation/HUDView.cs
+  artifactKey: Guid(61b82099c0a92b848af1d81dd44f40d7) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Scripts/Presentation/HUDView.cs using Guid(61b82099c0a92b848af1d81dd44f40d7) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '12ede803944072579d667aa7c1e37243') in 0.014127 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset
+  artifactKey: Guid(4c86a3366cd840348ebe8dc438570ee4) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset using Guid(4c86a3366cd840348ebe8dc438570ee4) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '6f9a093310e948d80a8df603b1fbc072') in 0.027241 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scripts/Game/System
+  artifactKey: Guid(3bffd5b3ec5c31f4fbd06c9ea9a93a15) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Scripts/Game/System using Guid(3bffd5b3ec5c31f4fbd06c9ea9a93a15) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '29fa910f5e65ef9f25eced028bef0253') in 0.013885 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scripts/Framework/Runtime
+  artifactKey: Guid(c34a38944ff524642a01f256e95d8680) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Scripts/Framework/Runtime using Guid(c34a38944ff524642a01f256e95d8680) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '314e8ae8b78c871907c4db0d551d043f') in 0.010777 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scripts/Data/SymbolData.cs
+  artifactKey: Guid(9294faa27f712404985424960c343a6b) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Scripts/Data/SymbolData.cs using Guid(9294faa27f712404985424960c343a6b) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '945984721080a0769c475be1cb565f7b') in 0.013796 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Configs/Symbols/Cherry_SymbolData.asset
+  artifactKey: Guid(c0ba96b6ec5ac8f4499a90b18c0ee0bb) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Configs/Symbols/Cherry_SymbolData.asset using Guid(c0ba96b6ec5ac8f4499a90b18c0ee0bb) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '33902fa4d8b6c1ced82020eda5928ac1') in 0.016195 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scripts/Framework/Runtime/RunSession.cs
+  artifactKey: Guid(cc842db8257d4b146810389bcb1f4a5b) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Scripts/Framework/Runtime/RunSession.cs using Guid(cc842db8257d4b146810389bcb1f4a5b) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '4045cde2d4e4383af1bc748cd5106b80') in 0.016853 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scripts/Roguelite 老虎机项目开发框架概述.md
+  artifactKey: Guid(db0bc01992325b44ea1f508e58cb62d6) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Scripts/Roguelite 老虎机项目开发框架概述.md using Guid(db0bc01992325b44ea1f508e58cb62d6) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '219c320b3308b8c7f4713259818c6b40') in 0.022717 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scripts/Framework/Procedure/ProcedureManager.cs
+  artifactKey: Guid(38c857d95482e1844b1e96aa428a09cf) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Scripts/Framework/Procedure/ProcedureManager.cs using Guid(38c857d95482e1844b1e96aa428a09cf) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'd1e4b34c6cb72b7a113bf73614f24623') in 0.020514 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Configs/Symbols
+  artifactKey: Guid(7185c4e185d63db47b762b7b7fde6c7c) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Configs/Symbols using Guid(7185c4e185d63db47b762b7b7fde6c7c) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '55804384609464ef5388437846fc1bfc') in 0.010974 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs
+  artifactKey: Guid(c3c1afeda5e545e0b19add5373896d2e) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs using Guid(c3c1afeda5e545e0b19add5373896d2e) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '2ff94420b7fbff4cf96f5f211988b6c2') in 0.019746 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Sprites/Frames/icon_frame.png
+  artifactKey: Guid(2f930c78e60f9fb4a881dacf803b0afb) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Art/Sprites/Frames/icon_frame.png using Guid(2f930c78e60f9fb4a881dacf803b0afb) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '35fc22f1da18cfecd577d3ae7fdfde39') in 0.029836 seconds
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg
+  artifactKey: Guid(17c350171f7a3ca479f830547c66d187) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg using Guid(17c350171f7a3ca479f830547c66d187) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '4f2c349baaa9293aa88e347c60082c6a') in 0.028338 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '25b74a83f2efc9be46ea953beca05517') in 0.032986 seconds
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scripts/Framework/Procedure/ProcedureBase.cs
+  artifactKey: Guid(06820d1e7c45b4a43a1acfd576b39efb) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Scripts/Framework/Procedure/ProcedureBase.cs using Guid(06820d1e7c45b4a43a1acfd576b39efb) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '9621935b6df57605f0f11cb6f3d331c7') in 0.016808 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scripts/Presentation/BetPanelView.cs
+  artifactKey: Guid(063f5d82285d1e240815de86b62d91a7) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Scripts/Presentation/BetPanelView.cs using Guid(063f5d82285d1e240815de86b62d91a7) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '996a14f94b6ae035f68361ac9d55a4d0') in 0.014519 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll
+  artifactKey: Guid(45d5034162d6cf04dbe46da84fc7d074) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll using Guid(45d5034162d6cf04dbe46da84fc7d074) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '0a99631b144e7796c313578a12a1b54e') in 0.026753 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs
+  artifactKey: Guid(7bcaf917d9cf5b84090421a5a2abe42e) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs using Guid(7bcaf917d9cf5b84090421a5a2abe42e) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '04e45aa443dfc16654209f6b3fcff06d') in 0.014104 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs
+  artifactKey: Guid(230fe34542e175245ba74b4659dae700) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs using Guid(230fe34542e175245ba74b4659dae700) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'ddf0fdfc3ada578dd2e42773d6cc42a8') in 0.018305 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/DOTweenSettings.asset
+  artifactKey: Guid(3d1e071333ffdd3489c522de36560cda) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Resources/DOTweenSettings.asset using Guid(3d1e071333ffdd3489c522de36560cda) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '13bb42d2d5ff7431491c31e24b2ac3f1') in 0.022166 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs
+  artifactKey: Guid(dae9aa560b4242648a3affa2bfabc365) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs using Guid(dae9aa560b4242648a3affa2bfabc365) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '0c66422093ff896b89d5194eba30a531') in 0.015139 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/Presentation/WheelView.cs
+  artifactKey: Guid(adf38a0aa5b495346b2528283f5f7b0f) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Scripts/Presentation/WheelView.cs using Guid(adf38a0aa5b495346b2528283f5f7b0f) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '0ba03c06bb0233b22782390ef0883bb8') in 0.015873 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(6f3ddbff2ea2e124fb21f4c54f77d4ff) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Plugins using Guid(6f3ddbff2ea2e124fb21f4c54f77d4ff) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'f668b4c8004fcd6af5b40dbd2a1f3536') in 0.011504 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Fonts/3500chinese.txt
+  artifactKey: Guid(52719735659e7ce4bbac1a557cca8197) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Art/Fonts/3500chinese.txt using Guid(52719735659e7ce4bbac1a557cca8197) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '2935690ae404cda242b2e3c52ffcb67a') in 0.025076 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules
+  artifactKey: Guid(143604b8bad857d47a6f7cc7a533e2dc) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules using Guid(143604b8bad857d47a6f7cc7a533e2dc) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '8916f90a980fcb6f9c66e5ddbed2541c') in 0.013497 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/Sprites/Anims/BackAnim_0.controller
+  artifactKey: Guid(8e0681d0013244a448827415c2fff0a8) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Art/Sprites/Anims/BackAnim_0.controller using Guid(8e0681d0013244a448827415c2fff0a8) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '8231177707603614a757120799dcdcc5') in 0.044817 seconds
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs
+  artifactKey: Guid(e944529dcaee98f4e9498d80e541d93e) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs using Guid(e944529dcaee98f4e9498d80e541d93e) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'd2c3a14101753cd3996faff7ada76cb2') in 0.012688 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs
+  artifactKey: Guid(63c02322328255542995bd02b47b0457) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs using Guid(63c02322328255542995bd02b47b0457) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '108384c013ecaeca9a15aba6f864bdbb') in 0.015991 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs
+  artifactKey: Guid(b766d08851589514b97afb23c6f30a70) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs using Guid(b766d08851589514b97afb23c6f30a70) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '7b147fa40044877c8680f30e9c3c4252') in 0.015098 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Sprites/Anims
+  artifactKey: Guid(c5b7b5d97e661e242a44f7e722b874ec) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Art/Sprites/Anims using Guid(c5b7b5d97e661e242a44f7e722b874ec) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'e2d4683feeefe1888a5ac15f5cd33ddf') in 0.013276 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Sprites/Anims/BackgroundAnimation.anim
+  artifactKey: Guid(ec945d0f93c630541aa4a4d7228c5919) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Art/Sprites/Anims/BackgroundAnimation.anim using Guid(ec945d0f93c630541aa4a4d7228c5919) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'f2eb4cae76410dfab54534686a57c95e') in 0.030908 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scripts/Presentation/SymbolButtonItem.cs
+  artifactKey: Guid(11af523384060e7469f63c386ad1fd39) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Scripts/Presentation/SymbolButtonItem.cs using Guid(11af523384060e7469f63c386ad1fd39) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '765f5347335356bbadbd79ec1dfd4e5c') in 0.013706 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/DOTween.dll.mdb
+  artifactKey: Guid(4f007001a22b3d24dae350342c4d19c8) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Plugins/Demigiant/DOTween/DOTween.dll.mdb using Guid(4f007001a22b3d24dae350342c4d19c8) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'b32b52a789d56c0e4647b704ba88b63c') in 0.013043 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Sprites/Frames/buttons-sheet.png
+  artifactKey: Guid(30be8ec2ddfecef459ab840cac34cb46) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Art/Sprites/Frames/buttons-sheet.png using Guid(30be8ec2ddfecef459ab840cac34cb46) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'e4382bc7431e32175f95e168190999db') in 0.068011 seconds
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'e5dcc3f51ae1ba6d3bebc40f25ffcf57') in 0.023765 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png
+  artifactKey: Guid(7051dba417b3d53409f2918f1ea4938d) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png using Guid(7051dba417b3d53409f2918f1ea4938d) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'acfd84fe50cd78510f6f3cd7cffb5e5c') in 0.030778 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity
+  artifactKey: Guid(c3f814e1d12c45568daf3dd9a86a0e61) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity using Guid(c3f814e1d12c45568daf3dd9a86a0e61) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '5b71179bbf2b6a3e143306c19acc5b20') in 0.013241 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity
+  artifactKey: Guid(70615243e2be4a81afaab9bf5d273d65) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity using Guid(70615243e2be4a81afaab9bf5d273d65) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'f8ce7a3056fe852788c40a8374c2f9bf') in 0.019166 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets
+  artifactKey: Guid(512a49d95c0c4332bdd98131869c23c9) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets using Guid(512a49d95c0c4332bdd98131869c23c9) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '7099c65cdb4511a964867a1401ec3f31') in 0.014731 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft Mask.unity
+  artifactKey: Guid(9abcd5bd764646568a6ea70d00f9264c) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft Mask.unity using Guid(9abcd5bd764646568a6ea70d00f9264c) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'a32b36b5c7e95834294c8f63e927304d') in 0.017798 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity
+  artifactKey: Guid(0851605490a599b46b6ac5cb681d93ea) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity using Guid(0851605490a599b46b6ac5cb681d93ea) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '74a1aae3028151a063b182a592b66302') in 0.016736 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat
+  artifactKey: Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat using Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'e83f14151ad7b9b5e7be42f995c16146') in 0.025506 seconds
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity
+  artifactKey: Guid(349f38d3606449708c7340d26740e1e2) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity using Guid(349f38d3606449708c7340d26740e1e2) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'be244be2036e45879cd79faf0f383f1e') in 0.013518 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+  artifactKey: Guid(6eb184de103d4b3f812b38561065192f) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg using Guid(6eb184de103d4b3f812b38561065192f) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '9749e6addc4568a7c2b326de1cf98d29') in 0.032575 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt
+  artifactKey: Guid(d2cf87a8a7a94aa8b80dff1c807c1178) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt using Guid(d2cf87a8a7a94aa8b80dff1c807c1178) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'b605940ba0c4e5d5d864a88cbfca5e91') in 0.020014 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs
+  artifactKey: Guid(d412675cfb3441efa3bf8dcd9b7624dc) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs using Guid(d412675cfb3441efa3bf8dcd9b7624dc) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '8d792d64cc7d1a3b082aa0d816c81c98') in 0.014277 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs
+  artifactKey: Guid(52ec835d14bd486f900952b77698b7eb) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs using Guid(52ec835d14bd486f900952b77698b7eb) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '282bcf27d38c5835e1de13838cc2477b') in 0.014796 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 21.336049 seconds.
+  path: Assets/Scenes/MainGame.scene
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Scenes/MainGame.scene using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '73c79dc756e04b754c3fbfbbf32085ff') in 0.026269 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 222.689631 seconds.
+  path: Assets/Scenes/MainGame.scene
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Scenes/MainGame.scene using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: 'dde7bdb7e873379521b93f65ce77cba5') in 0.012037 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.147702 seconds.
+  path: Assets/Scenes/MainGame.scene
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Scenes/MainGame.scene using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '692e589243ff4a701fa875f25c7f8323') in 0.014851 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 76.708623 seconds.
+  path: Assets/Scenes/MainGame.scene
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Scenes/MainGame.scene using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '48fb454c71cbdb8c2ade29e90fae61e0') in 0.029304 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 701.670013 seconds.
+  path: Assets/Prefabs/UI/WheelItemPrefab.prefab
+  artifactKey: Guid(db40236c167c6454ea0f0e70e53abd6a) Importer(PreviewImporter)
+Start importing Assets/Prefabs/UI/WheelItemPrefab.prefab using Guid(db40236c167c6454ea0f0e70e53abd6a) Importer(PreviewImporter)  -> (artifact id: 'af80f7b73de8ec76038e9fbaa24a0854') in 0.055059 seconds
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 15.228969 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(00efc6ecf67a8da4e92df9249e9d88e3) Importer(PreviewImporter)
+Start importing Assets/Animations using Guid(00efc6ecf67a8da4e92df9249e9d88e3) Importer(PreviewImporter)  -> (artifact id: '31e016a515604681023cb6d9433299cf') in 0.000588 seconds
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.936283 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(00efc6ecf67a8da4e92df9249e9d88e3) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Animations using Guid(00efc6ecf67a8da4e92df9249e9d88e3) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '492740c245380a0065afa3ad842a2945') in 0.019384 seconds
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 45.872304 seconds.
+  path: Assets/Art/Sprites/Frames/BackgroundMachine.png
+  artifactKey: Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)
+Start importing Assets/Art/Sprites/Frames/BackgroundMachine.png using Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(PreviewImporter)  -> (artifact id: 'd9749c903466d7a946f45d4aa479d658') in 0.145279 seconds
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.778323 seconds.
+  path: Assets/Art/Sprites/Frames/BackgroundMachine.png
+  artifactKey: Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(ScriptedImporter:ASIEI03)
+Start importing Assets/Art/Sprites/Frames/BackgroundMachine.png using Guid(7d2d5debe90dae04a8ef015f06c4be30) Importer(ScriptedImporter:ASIEI03)  -> (artifact id: '545e84e29e57d3c3d2ec873528efd2d0') in 0.055858 seconds
+Number of asset objects unloaded after import = 15

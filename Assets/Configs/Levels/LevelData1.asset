@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6336ae4769c2c4041ab78de498332ad3, type: 3}
+  m_Name: LevelData1
+  m_EditorClassIdentifier: 
+  levelIndex: 1
+  startPoints: 100
+  goalPoints: 150
+  spinsPerLevel: 5
+  spinSlots:
+  - symbol: {fileID: 11400000, guid: 649f3276d07e9c74e82f22bdc244acae, type: 2}
+    weight: 1
+  - symbol: {fileID: 11400000, guid: d1ed24bcb34727844b565609caee0226, type: 2}
+    weight: 1
+  - symbol: {fileID: 11400000, guid: fe645c5009017d34d90ba4d9370c8330, type: 2}
+    weight: 1
+  - symbol: {fileID: 11400000, guid: c0ba96b6ec5ac8f4499a90b18c0ee0bb, type: 2}
+    weight: 1
+  - symbol: {fileID: 11400000, guid: 58c8aac7dfd06dd4a8ade3f78c689a52, type: 2}
+    weight: 1
+  - symbol: {fileID: 11400000, guid: a6d3fd1527258d14aa01234bbd1f1792, type: 2}
+    weight: 1
+  - symbol: {fileID: 11400000, guid: 246feac9f0f3cf84ebca4da4f5d83d1d, type: 2}
+    weight: 1
+  - symbol: {fileID: 11400000, guid: 746b6a873bff4f94c888903c5530cdd8, type: 2}
+    weight: 1

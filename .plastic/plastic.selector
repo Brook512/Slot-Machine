@@ -1,0 +1,4 @@
+repository "Slot Machine@tj_wechat_os_qy0x8hnuits0bsal72qufd6ng@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
